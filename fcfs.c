@@ -31,5 +31,6 @@ int main() {
     printf("%d\t%d\t\t%d\t\t%d\t\t%d\n", processes[i].id, processes[i].arrival_time,
     processes[i].burst_time, processes[i].waiting_time, processes[i].turnaround_time);
   }
-}
+
 return 0;
+}
